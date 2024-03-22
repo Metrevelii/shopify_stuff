@@ -1,0 +1,29 @@
+{
+  "name": "shopify_stuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "express-formidable": "^1.2.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-validator": "^7.0.1",
+    "http-status": "^1.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "mailgen": "^2.0.28",
+    "mongoose": "^8.2.3",
+    "mongoose-aggregate-paginate-v2": "^1.0.7",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "xss-clean": "^0.1.4"
+  }
+}
