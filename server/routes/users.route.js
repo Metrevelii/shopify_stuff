@@ -6,7 +6,9 @@ const auth = require('../middleware/auth');
 
 router.route('/profile')
 .get(auth('readOwn','profile'),usersController.profile)
-.patch(auth('updateOwn', 'profile'),usersController.updateProfile)
+.patch(auth('updateOwn', 'profile'),usersController.updateProfile);
+
+router.patch('/email', auth('updateOwn', 'profile'), usersController.updateUserEmail);
 
 
 module.exports = router;
