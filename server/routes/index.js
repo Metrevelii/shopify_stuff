@@ -17,7 +17,7 @@ const routesIndex = [
         path:'/brands',
         route: brandsRoute
     }
-]
+];
 
 routesIndex.forEach((route)=>{
     router.use(route.path, route.route);
